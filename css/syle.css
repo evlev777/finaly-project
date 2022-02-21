@@ -54,11 +54,10 @@ header{
     color:#FF800B;
     font-size: 18px;
     margin-left: 5px;
+    z-index: 2;
 }
 
-.btn-nav:hover{
-    box-shadow: 0 0 10px #74513b;
-}
+
 
 .btn-basket-search{
     background-color: #FFFFFF;
@@ -66,8 +65,14 @@ header{
     border-radius: 15px;
     width: 50px;
     height: 50px;
-    margin:0 13px;
+    margin:0 20px;
+    z-index: 2;
 }
+
+.btn-nav:hover{
+    box-shadow: 0 0 15px #e94311;
+}
+
 
 .organic{
     color:#FDB827;
@@ -76,8 +81,7 @@ header{
 .des-wrapper{
     display: flex;
     flex-direction: column;
-    margin-top: 241px;
-    margin-bottom: 200px;
+    margin-top: 180px;
 }
 
 .des-wrapper div{
@@ -113,6 +117,7 @@ header{
     align-items: center;
     font-size: 18px;
     font-weight: 500;
+    z-index: 2;
 }
 
 .oder img{
@@ -131,10 +136,113 @@ header{
     margin: 0 auto;
     width: 1500.63px;
     height: 1453.68px;
-    left:100px;
+    left:300px;
     top: 0;
-    z-index: 9999;
+    z-index: 1;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+}
+
+.header-product{
+    font-size:70px ;
+    font-weight: bold;
+    margin-top:100px;
+    margin-bottom: 87px;
+}
+
+.product-item{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 141px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.fruit{
+    width: 270px;
+    height: 197px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+}
+
+.banana{
+    background-color: #FFD400;
+}
+
+.des-fruit{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    margin:33px 0;
+}
+
+.buy{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.btn-buy{
+    width: 106px;
+    height: 40px;
+    color: black;
+    background-color: #FDB827;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+}
+
+.granat{
+    background-color: #FFE3E2;
+}
+
+.orange{
+    background-color: #F5BC5B;
+}
+
+.avocado{
+    background-color: #EDF2F5;
+}
+
+.apple{
+    background-color: rgba(246, 118, 109, 0.6);
+}
+
+.green-apple{
+    background-color: #BED09B;
+}
+
+.strawberry{
+    background-color: #FFBAB5;
+}
+
+.watermelon{
+    background-color: #E9F1F3;
+}
+
+.btn-nav:checked{
+    background-color: #FDB827;
+}
+
+
+
 
 
 
