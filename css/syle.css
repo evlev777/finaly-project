@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100vh;
+    background-color: #FFF9F2 !important;
+}
+.wrapper{
+    display: flex;
+    margin-left: 230px;
+}
+
+.left-path{
+    width: 67%;
+    
+}
+.nav-block {
+    margin: 33px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+}
+
+.nav-links li{
+    margin-right: 46px;
+    border: none;
+}
+
+.nav-links a{
+    color: #233506;
+    font-size: 18px;
+    display: inline;
+}
+.rigth-path{
+    width: 33%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #FDB827;
+}
+
+.btn-contact{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 22.5px;
+    width: 140px;
+    height: 50px;
+    color:#FF800B;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.btn-nav:hover{
+    box-shadow: 0 0 10px #74513b;
+}
+
+.btn-basket-search{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin:0 13px;
+}
+
+.organic{
+    color:#FDB827;
+}
+
+.des-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 241px;
+    margin-bottom: 200px;
+}
+
+.des-wrapper div{
+    margin-bottom: 50px;
+}
+
+.des-header{
+    width: 591px;
+    height: 249px;
+    font-size: 84px;
+    color:#233506;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.description{
+    width: 456px;
+    height: 40px;
+    font-size: 19px;
+    font-weight:400;
+    font-style: normal;
+    line-height: 170%;
+    color:rgba(35, 53, 6, 0.65);;
+}
+
+.oder{
+    width: 210px;
+    height: 66px;
+    background-color: #FDB827;
+    border:none;
+    border-radius: 33px;
+    color:#FFFFFF;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.oder img{
+    margin-left: 31px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.start-image{
+    position: absolute;
+    margin: 0 auto;
+    width: 1500.63px;
+    height: 1453.68px;
+    left:100px;
+    top: 0;
+    z-index: 9999;
+}
+
+
+
