@@ -154,6 +154,7 @@ header{
     margin-bottom: 87px;
 }
 
+
 .product-item{
     margin: 0;
     display: flex;
@@ -241,8 +242,64 @@ header{
     background-color: #FDB827;
 }
 
+.works{
+    background-color: #FFF9F2;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+}
 
+.ellipse{
+    margin-top:59px;
+    margin-bottom: 59px;
+}
 
+.ellipse img{
+    width: 325px;
+}
 
+.workers{
+    display: flex;
+    flex-direction: column;
+}
+
+.works-img{
+    margin-top: 56px;
+    margin-bottom: 56px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.girl img{
+    border-radius: 34px;
+}
+
+.vegatables-fruit{
+    margin-left: 30px;
+    margin-top: 45px;
+}
+
+.fruit{
+    width: 235px;
+    height: 325px;
+}
+
+.works-img img{
+    margin-bottom: 30px;
+}
+
+.works-descriptions{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 140px;
+}
+
+.description-header{
+    font-size: 70px;
+    font-weight: bold;
+}
 
 
