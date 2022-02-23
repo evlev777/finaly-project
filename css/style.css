@@ -475,6 +475,66 @@ header{
     margin: 0 auto;
 }
 
+footer{
+    width: 100%;
+    height: 539px;
+    background-color:white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.contact-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1371px;
+    height: 198px;
+    margin: 0 auto;
+    margin-left: 375px;
+    margin-top: 150px;
+}
+
+.footer-colum{
+    display:flex;
+    flex-direction: column;
+    width: 292px;
+    margin-right: 120px;
+}
+
+.big-colum{
+    width: 300px;
+}
+
+.footer-colum h6{
+    margin-bottom: 47px;
+    font-size: 31px;
+    font-weight: bold;
+    color:#243165;
+}
+
+.footer-colum p{
+    color:#375465cc;
+    font-size: 17px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 45px;
+}
+
+.social-media img{
+    margin-right: 18px;
+}
+
+.community p{
+    margin-bottom: 30.5px;
+}
+
+
 
 
 
