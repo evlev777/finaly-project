@@ -393,3 +393,89 @@ header{
     top: 3353px;
     z-index: 2;
 }
+
+.customer-review{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF9F2;
+    display: flex;
+    justify-content: center;
+}
+
+.review{
+    width: 887px;
+    height: 505px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-review{
+    display: flex;
+    flex-direction: column;
+}
+
+.review-title{
+    font-size: 70px;
+    color: #02283F;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.carousel-slider{
+    width: 826px !important;
+    height: 368px !important;
+    
+}
+
+.carousel-item{
+    width: 626px !important;
+    height: 268px !important;
+    background-color: white;
+    border-radius: 64px;
+    min-height: 0 !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color:#02283F !important;
+    padding: 45px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.person{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.person img{
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+}
+
+.data-person{
+    display: flex;
+    flex-direction: column;
+    color:#02283fc9;
+}
+
+.data-person h6{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.data-person p{
+    font-size: 18px;
+}
+
+.container-review button{
+    margin: 0 auto;
+}
+
+
+
+
+
