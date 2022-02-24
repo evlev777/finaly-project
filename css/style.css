@@ -133,6 +133,8 @@ header{
 
 .start-image{
     position: absolute;
+    object-fit: cover;
+    object-position: 50% 50%;
     margin: 0 auto;
     width: 1500.63px;
     height: 1453.68px;
@@ -180,6 +182,7 @@ header{
     border-radius: 9px;
     display: flex;
     justify-content: center;
+    margin:0 auto;
 }
 
 .banana{
@@ -228,6 +231,10 @@ header{
 
 .green-apple{
     background-color: #BED09B;
+}
+
+.green-apple img{
+    margin-left:100px;
 }
 
 .strawberry{
@@ -387,10 +394,11 @@ header{
 
 .about-us-fruit{
     position: absolute;
+    object-fit: cover;
     width: 495px;
     height: 543px;
     left: 1200px;
-    top: 3353px;
+    top: 3493px;
     z-index: 2;
 }
 
