@@ -147,12 +147,6 @@ header{
     height: auto;  
 }
 
-/* .start-image img{
-    object-fit: cover;
-    object-position: center;
-    left:50%;
-    top: 10%;
-} */
 
 .content{
     display: flex;
@@ -377,7 +371,7 @@ header{
     display: flex;
     flex-direction: column;
     margin: auto 0;
-    margin-left: 375px;
+    margin-left: 255px;
 }
 
 .about-us-title{
@@ -392,15 +386,22 @@ header{
     color: #2a3547bf;
 }
 
+
 .about-us-img{
+    position: relative;
     margin: auto 0;
+    margin-top: 90px;
     margin-right: 18px;
+    margin-left: 70px;
+    width: 590px;
+    height: 800px;
+    
 }
 
 .ellipse{
     width: 490px;
     height: 490px;
-    z-index:1;
+    z-index: 1;
 }
 
 .about-us-fruit{
@@ -408,8 +409,10 @@ header{
     object-fit: cover;
     width: 495px;
     height: 543px;
-    left: 1200px;
-    top: 3493px;
+    /* left: 50%; */
+    /* top: 362%; */
+    top:35px;
+    left: -200px;
     z-index: 2;
 }
 
@@ -554,9 +557,11 @@ footer{
 }
 
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1400px) {
     body{
-        width: 1320px;
+        width: 1400px;
+        overflow-x: hidden;
+        margin-right: 0;
     }
 
     /* header section */
@@ -643,10 +648,8 @@ footer{
     }
 
     .about-us-fruit{
-        width: 390px;
+        min-width: 450px;
         height: 428px;
-        left: 800px;
-        top: 3341px;
     }
 
     .about-us-img .ellipse{
@@ -654,6 +657,16 @@ footer{
         height: 388px;
     }
 
+    /* footer */
+
+    .contact-footer{
+        max-width: 1270px;
+        margin-left: 70px;
+    }
+
+    .footer-colum{
+        margin-right: 0;
+    }
 
 }
 
