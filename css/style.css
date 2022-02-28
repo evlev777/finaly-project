@@ -133,10 +133,10 @@ header{
 .start-image{
     position:absolute;
     width: 50%;
-    max-width: 600px;
+    max-width: 800px;
     height: 58%;
-    left:57%;
-    top: 17%;
+    left:50%;
+    top: 11%;
     z-index: 1;
     margin: 0 auto;
 }
@@ -562,7 +562,7 @@ footer{
     /* header section */
 
     .start-image{
-        max-width: 700px;
+        max-width: 500px;
         top:220px;
     }
 
@@ -586,20 +586,16 @@ footer{
 
 
     /* product section */
-
-    .about-us-fruit{
-
-        max-width: 300px;
-        height: 543px;
-        left: 800px;
-        top: 3493px;
+    
+    .item{
+        margin-left: 30px;
     }
 
-
-    .contact-footer{
-        width: 1320px;
-        margin-left: 50px;
+    .content{
+        margin-left: 200px;
     }
+
+   /*  works section */
 }
 
 @media screen and (max-width: 1200px){
