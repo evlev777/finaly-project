@@ -555,9 +555,11 @@ footer{
 
 
 @media screen and (max-width:1399px) {
-    header{
+    body{
         width: 1320px;
     }
+
+    /* header section */
 
     .start-image{
         max-width: 700px;
@@ -580,6 +582,23 @@ footer{
     .des-wrapper{
 
         margin-top: 180px;
+    }
+
+
+    /* product section */
+
+    .about-us-fruit{
+
+        max-width: 300px;
+        height: 543px;
+        left: 800px;
+        top: 3493px;
+    }
+
+
+    .contact-footer{
+        width: 1320px;
+        margin-left: 50px;
     }
 }
 
