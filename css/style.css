@@ -596,6 +596,37 @@ footer{
     }
 
    /*  works section */
+
+    .works-descriptions{
+        margin-right: 100px;
+        margin-top: 30px;
+    }
+    .description-header{
+        font-size: 54px;
+    }
+
+    .ellipse{
+        margin-top: 182px;
+        width: 388px;
+    }
+
+    .ellipse img{
+        width: 256px;
+    }
+
+    .works-img{
+        width: 437px;
+    }
+
+    .subtitle{
+        font-size: 16px;
+    }
+
+    .works-item-description{
+        margin-left: 15px;
+    }
+
+
 }
 
 @media screen and (max-width: 1200px){
