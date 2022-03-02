@@ -7,7 +7,6 @@
     width: 100%;
 }
 header{
-    height: 100vh;
     background-color: #FFF9F2 !important;
 }
 .wrapper{
@@ -17,7 +16,7 @@ header{
 
 .left-path{
     width: 67%;
-    
+    margin-bottom: 150px;
 }
 .nav-block {
     margin: 33px 0;
@@ -44,7 +43,7 @@ header{
 .rigth-path{
     
     width: 33%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: flex-start;
     background-color: #FDB827;
@@ -90,7 +89,7 @@ header{
 }
 
 .des-wrapper div{
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .des-header{
@@ -123,6 +122,7 @@ header{
     font-size: 18px;
     font-weight: 500;
     z-index: 2;
+    margin-top: 40px;
 }
 
 .oder img{
@@ -137,7 +137,7 @@ header{
 .start-image{
     position:absolute;
     width: 50%;
-    max-width: 800px;
+    max-width: 600px;
     height: 58%;
     left:50%;
     top: 11%;
@@ -173,8 +173,9 @@ header{
     margin-bottom: 141px;
 }
 
-.container{
+.product-container{
     display: flex;
+    width: 80%;
     justify-content: space-between;
     margin: 0;
     margin-bottom: 36px;
@@ -265,14 +266,14 @@ header{
 .works-conteiner{
     background-color: #FFF9F2;
     width: 100%;
-    height: 100vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .ellipse{
-    margin-top:59px;
-    margin-bottom: 59px;
+    width: 390px;
+    height: 390px;
+    margin-top:120px;
 }
 
 .ellipse img{
@@ -287,7 +288,6 @@ header{
 .works-img{
     margin-top: 56px;
     margin-bottom: 56px;
-    margin-left: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -314,7 +314,8 @@ header{
     display: flex;
     flex-direction: column;
     margin-top: 62px;
-    margin-left: 140px;
+    margin-left: 50px;
+    margin-right: 75px;
     width: 494px;
     height: 550px;
 }
@@ -365,7 +366,6 @@ header{
 
 .about-us{
     width: 100%;
-    height: 100vh;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
@@ -523,7 +523,6 @@ footer{
     width: 1371px;
     height: 198px;
     margin: 0 auto;
-    margin-left: 375px;
     margin-top: 150px;
 }
 
@@ -565,138 +564,40 @@ footer{
 }
 
 
-@media screen and (max-width:1600px) {
-
-    .start-image{
-        max-width: 600px;
-        left: 55%;
-    }
-
-    .item{
-        margin-right: 50px;
-    }
-
-    .works-descriptions{
-        margin-left: 20px;
-    }
-
-    .works-img{
-        margin-left: 0;
-    }
-
-    .contact-footer{
-        margin-left: 50px;
-    }
-
-
-}
-
-@media screen and (max-width:1400px) {
-
-    /* header section */
-
-    .start-image{
-        max-width: 500px;
-        top:220px;
-    }
-
+ /* Responsive */
+ /* 1401px - 1920px */
+@media screen and (max-width: 1920px){
     .des-header{
-        width: 400px;
-        font-size: 60px;
+        width: 501px;
+        height: 209px;
+        font-size: 70px;
     }
 
-    .des-wrapper div{
-        margin-bottom: 0;
-    }
-
-    .oder{
-        margin-top: 60px;
-    }
-
-    .des-wrapper{
-
-        margin-top: 180px;
-    }
-
-
-    /* product section */
-    
     .item{
-        margin-left: 30px;
+        margin-right: 25px;
     }
 
-    .content{
-        margin-left: 200px;
-    }
-
-   /*  works section */
-
-    .works-descriptions{
-        margin-right: 100px;
-        margin-top: 30px;
-    }
     .description-header{
-        font-size: 54px;
+        font-size: 58px;
     }
 
-    .ellipse{
-        margin-top: 182px;
-        width: 388px;
-    }
-
-    .ellipse img{
-        width: 256px;
-    }
-
-    .works-img{
-        width: 437px;
-    }
-
-    .subtitle{
-        font-size: 16px;
-    }
-
-    .works-item-description{
-        margin-left: 15px;
-    }
-
-    .works-item-description h4{
-        font-size: 18px;
-        font-weight: 500;
-    }
-
-    .works-item-description p{
-        font-size: 16px;
-    }
-
-
-    /* .about-us section */
-
-    .about-us-description{
-        margin-left: 260px;
+    .works-item img{
+        margin-right: 15px;
     }
 
     .about-us-fruit{
-        min-width: 450px;
-        height: 428px;
+        width: 490px;
+        height: 490px;
+        top:118px;
     }
 
-    .about-us-img .ellipse{
-        width: 388px;
-        height: 388px;
+    .about-us-img{
+        margin-left: 228px;
     }
-
-    /* footer */
 
     .contact-footer{
-        max-width: 1270px;
-        margin-left: 70px;
+        margin-left: 30px;
     }
-
-    .footer-colum{
-        margin-right: 0;
-    }
-
 }
 
 @media screen and (max-width: 1200px){
