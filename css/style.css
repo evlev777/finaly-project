@@ -58,7 +58,6 @@ header{
     color:#FF800B;
     font-size: 18px;
     margin-left: 5px;
-    z-index: 2;
 }
 
 
@@ -70,7 +69,6 @@ header{
     width: 50px;
     height: 50px;
     margin:0 20px;
-    z-index: 2;
 }
 
 .btn-nav:hover{
@@ -121,7 +119,6 @@ header{
     align-items: center;
     font-size: 18px;
     font-weight: 500;
-    z-index: 2;
     margin-top: 40px;
 }
 
@@ -520,9 +517,10 @@ footer{
 .contact-footer{
     display: flex;
     justify-content: space-between;
-    width: 1371px;
+    width: 80%;
     height: 198px;
     margin: 0 auto;
+    margin-left: 100px;
     margin-top: 150px;
 }
 
@@ -530,7 +528,6 @@ footer{
     display:flex;
     flex-direction: column;
     width: 292px;
-    margin-right: 120px;
 }
 
 .big-colum{
@@ -600,8 +597,115 @@ footer{
     }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1400px){
+    .start-image{
+        max-width: 450px;
+    }
+    .btn-basket-search{
+        margin: 0 15px;
+    }
 
+    .des-header{
+        width: 401px;
+        height: 209px;
+        font-size: 58px;
+    }
+
+    .description{
+        width: 450px;
+        margin-bottom: 40px;
+    }
+
+    .oder{
+        margin-top: 50px;
+    }
+
+    .content{
+        margin-left: 120px;
+    }
+
+    .works-conteiner .ellipse{
+        display: none;
+    }
+
+    .works-img{
+        margin-left: 100px;
+    }
+
+    .about-us-description{
+        margin-top: 330px;
+    }
+
+    .about-us-title{
+        font-size: 64px;
+    }
+
+    .ellipse{
+        width: 400px;
+        height: 400px;
+    }
+
+    .about-us-fruit{
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px){
+    .wrapper{
+        margin-left: 40px;
+    }
+
+    .btn-basket-search{
+        margin: 0 15px;
+    }
+
+    .content{
+        margin-left: 40px;
+    }
+    .fruit{
+        width: 200px;
+        height: 300px;
+    }
+    .description-header{
+        font-size: 34px;
+    }
+
+    .works-img{
+        margin-top: 140px;
+    }
+
+    .works-descriptions{
+        height: auto;
+    }
+
+    .ellipse{
+        width: 320px;
+        height: 320px;
+    }
+
+    .about-us-fruit{
+        width: 320px;
+        height: 320px;
+        left: -110px;
+    }
+
+    .about-us-img{
+        margin-top: 180px;
+    }
+
+    .about-us-description{
+        margin-left: 150px;
+    }
+    .about-us-title{
+        font-size: 38px;
+    }
+
+    .contact-footer{
+        width: 97%;
+    }
 }
 
 @media screen and (max-width: 992px){
